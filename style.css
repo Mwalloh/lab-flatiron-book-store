@@ -1,9 +1,42 @@
+#header {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Elsie', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: orange;
+    font-weight: bolder;
+}
 
 .list ul{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+#book-list li {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    height: 680px;
+    background-color: rgba(211, 211, 211, 0.2);
+    box-shadow: 8px 8px 10px 2px black;
+}
+
+#book-list h3 {
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#book-list p {
+    text-align: center;
+    font-size: 25px;
 }
 
 .list-li{
@@ -13,6 +46,11 @@
     padding: 5px;
     
 }
+
 .list-li img{
     width:190px;
+}
+
+#delete-this {
+    display: none;
 }
